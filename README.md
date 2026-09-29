@@ -78,3 +78,90 @@ The project can be extended by:
 ## 👩‍💻 About the Project
 
 This project was developed as part of my deep learning learning journey, combining my background in Economics with artificial intelligence and computer vision to explore a real-world socioeconomic problem.
+# Deep Learning-Based Poverty Mapping Using Satellite Imagery
+
+## 🌍 Project Overview
+
+This project explores the use of deep learning and satellite imagery to identify patterns associated with different levels of poverty.
+
+The project uses satellite images from Bolivia and applies a Convolutional Neural Network (CNN) to learn visual patterns from the images and classify them according to the available categories in the dataset.
+
+The project combines my background in Economics with Deep Learning and Computer Vision to explore a real-world socioeconomic problem.
+
+## 🎯 Objective
+
+The main objective is to investigate how satellite imagery can be used with deep learning techniques for poverty-related analysis.
+
+The project focuses on:
+
+- Preparing and preprocessing satellite images
+- Building a CNN-based image classification model
+- Training the model using satellite imagery
+- Evaluating the model's performance
+- Analysing the predictions produced by the model
+
+## 📊 Dataset
+
+The project uses a **Bolivia satellite imagery dataset** obtained from Kaggle.
+
+The dataset contains satellite images from different geographical areas in Bolivia and provides the image data used for training and evaluation.
+
+## 🛠️ Tools & Technologies
+
+- Python
+- TensorFlow / Keras
+- Convolutional Neural Networks (CNN)
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook / Google Colab
+
+## 🧠 Methodology
+
+The project follows these major steps:
+
+1. Dataset collection
+2. Image preprocessing
+3. Image resizing and normalisation
+4. Training and validation data preparation
+5. CNN model development
+6. Model training
+7. Model evaluation
+8. Prediction and analysis
+
+## 🧠 Why CNN?
+
+A Convolutional Neural Network is suitable for this project because CNNs are designed to learn visual features from images.
+
+The convolutional layers learn important patterns from the satellite images, while pooling layers help reduce the spatial dimensions and retain relevant features. The extracted features are then used by the network for classification.
+
+## 📈 Model Evaluation
+
+The trained model is evaluated using appropriate classification metrics and visualisations to understand its performance on the available dataset.
+
+The complete implementation and experiments are available in the Jupyter Notebook included in this repository.
+
+## 💡 Project Significance
+
+Satellite imagery can provide a useful source of information for studying geographical and socioeconomic patterns.
+
+This project demonstrates how deep learning can be applied to satellite imagery to explore poverty-related patterns and shows how technical skills can be combined with an Economics background to investigate real-world problems.
+
+## 🚀 Future Scope
+
+The project could be extended by:
+
+- Using larger satellite imagery datasets
+- Improving model performance through hyperparameter tuning
+- Exploring transfer learning with pretrained CNN architectures
+- Combining satellite imagery with socioeconomic and geographic information
+- Developing more detailed geographical poverty maps
+
+## 📁 Project Files
+
+- `Jupyter Notebook` — Complete project implementation, model development and analysis.
+
+## 👩‍💻 About the Project
+
+This project was developed as part of my Data Science and Deep Learning learning journey, combining Economics with artificial intelligence and computer vision to explore a real-world socioeconomic problem.
